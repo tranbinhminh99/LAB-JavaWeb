@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-color: #E6E6E6;
+}
+.container{
+    width: 886px;
+    margin: 0 auto;
+}
+.inside{
+    width: 760px;
+    margin: 0 auto;
+}
+/*CSS PREHEADER*/
+.preheader{
+    height: 71px;
+    background-image: url(../image/preheader.jpg);
+}
+/* CSS HEADER */
+.header{
+    background-image: url(../image/header.jpg);
+    height: 78px;
+}
+.header p.title{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+/* CSS NAV */
+.navbar{
+    background-image: url(../image/menu.jpg);
+    padding: 8px 0px;
+}
+.navbar ul li a{
+    color: white;
+    font-weight: bold;
+}
+/* CSS MAIN */
+.main{
+    background: white;
+    padding: 20px 0px;
+    background-image: url(../image/bg.jpg);
+}
+.main .inside{
+    display: flex;
+}
+/*CSS CONTENT*/
+.content{
+    width: 75%;
+    padding: 0px 20px;
+    border-right: 1px dashed gray;
+}
+
+/*CSS ASIDE*/
+.aside{
+    width: 25%;
+    padding: 0px 15px;
+}
+.aside .tren p.short{
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.aside .giua{
+    margin-bottom: 10px;
+}
+.aside .giua #text{
+    border: 1px dotted black;
+    width: 80%;
+}
+
+.aside .giua input.button{
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+.aside .khoitin{
+    margin-top: 10px;
+}
+.aside .duoi .khoitin ul li{
+    margin-top: 20px;
+}
+.aside .duoi .khoitin ul li a{
+    font-size: 14px;
+}
+/*CSS FOOTER*/
+.footer{
+    height: 78px;
+    background-image: url(../image/footer.jpg);
+}
+/*CSS COMMON*/
+.bg-no-repeat{
+    background-repeat: no-repeat;
+}
+.list-style-none{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.black{
+    color: black;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.text-color{
+    color: rgb(70,86,84);
+}
+.icon{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.icon1{
+    background-image: url(../image/timeicon.gif)
+}
+.icon2{
+    background-image: url(../image/comment.gif)
+}
+.text-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.p-size{
+    font-size: 14px;
+}

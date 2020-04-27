@@ -1,0 +1,25 @@
+
+.pager span{
+    font-weight: bold;
+}
+.pager a{
+    color: blue;
+}
+
+._1news{
+    margin-bottom: 40px;
+}
+._1news a{
+    margin-bottom: 10px;
+    display: block;
+}
+._1news .description{
+    display: table;
+}
+._1news .description img{
+    max-width: 40%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: inline;
+    float: left;
+}
